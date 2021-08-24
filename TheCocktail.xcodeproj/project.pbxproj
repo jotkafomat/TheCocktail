@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E14137CB26D5023B00300CAA /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14137CA26D5023B00300CAA /* Recipe.swift */; };
 		E14137CD26D502A800300CAA /* CoctailsPreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14137CC26D502A800300CAA /* CoctailsPreviewData.swift */; };
+		E14137CF26D50B8500300CAA /* Recipe + Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14137CE26D50B8500300CAA /* Recipe + Fixture.swift */; };
 		E164321826C44E9500535B47 /* TheCocktailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164321726C44E9500535B47 /* TheCocktailApp.swift */; };
 		E164321A26C44E9500535B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164321926C44E9500535B47 /* ContentView.swift */; };
 		E164321C26C44E9A00535B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E164321B26C44E9A00535B47 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		E14137CA26D5023B00300CAA /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		E14137CC26D502A800300CAA /* CoctailsPreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailsPreviewData.swift; sourceTree = "<group>"; };
+		E14137CE26D50B8500300CAA /* Recipe + Fixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe + Fixture.swift"; sourceTree = "<group>"; };
 		E164321426C44E9500535B47 /* TheCocktail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCocktail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E164321726C44E9500535B47 /* TheCocktailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCocktailApp.swift; sourceTree = "<group>"; };
 		E164321926C44E9500535B47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				E164322E26C44F2500535B47 /* Info.plist */,
+				E14137CE26D50B8500300CAA /* Recipe + Fixture.swift */,
 			);
 			path = TheCocktailTests;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 					};
 					E164322926C44F2400535B47 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 						TestTargetID = E164321326C44E9500535B47;
 					};
 				};
@@ -214,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14137CF26D50B8500300CAA /* Recipe + Fixture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T6T6SV744W;
 				INFOPLIST_FILE = TheCocktailTests/Info.plist;
@@ -402,6 +408,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jotkafomat.TheCocktailTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheCocktail.app/TheCocktail";
@@ -412,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T6T6SV744W;
 				INFOPLIST_FILE = TheCocktailTests/Info.plist;
