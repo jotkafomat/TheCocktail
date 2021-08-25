@@ -10,6 +10,9 @@
 		E14137CB26D5023B00300CAA /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14137CA26D5023B00300CAA /* Recipe.swift */; };
 		E14137CD26D502A800300CAA /* CoctailsPreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14137CC26D502A800300CAA /* CoctailsPreviewData.swift */; };
 		E14137CF26D50B8500300CAA /* Recipe + Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14137CE26D50B8500300CAA /* Recipe + Fixture.swift */; };
+		E14137D126D510DE00300CAA /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14137D026D510DE00300CAA /* RecipeViewModel.swift */; };
+		E14137D326D515E100300CAA /* RecipeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14137D226D515E100300CAA /* RecipeViewModelTests.swift */; };
+		E141385626D683F600300CAA /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141385526D683F600300CAA /* RecipeView.swift */; };
 		E164321826C44E9500535B47 /* TheCocktailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164321726C44E9500535B47 /* TheCocktailApp.swift */; };
 		E164321A26C44E9500535B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164321926C44E9500535B47 /* ContentView.swift */; };
 		E164321C26C44E9A00535B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E164321B26C44E9A00535B47 /* Assets.xcassets */; };
@@ -30,6 +33,9 @@
 		E14137CA26D5023B00300CAA /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		E14137CC26D502A800300CAA /* CoctailsPreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailsPreviewData.swift; sourceTree = "<group>"; };
 		E14137CE26D50B8500300CAA /* Recipe + Fixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe + Fixture.swift"; sourceTree = "<group>"; };
+		E14137D026D510DE00300CAA /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		E14137D226D515E100300CAA /* RecipeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModelTests.swift; sourceTree = "<group>"; };
+		E141385526D683F600300CAA /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		E164321426C44E9500535B47 /* TheCocktail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCocktail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E164321726C44E9500535B47 /* TheCocktailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCocktailApp.swift; sourceTree = "<group>"; };
 		E164321926C44E9500535B47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +91,8 @@
 				E164322026C44E9A00535B47 /* Info.plist */,
 				E164321D26C44E9A00535B47 /* Preview Content */,
 				E14137CA26D5023B00300CAA /* Recipe.swift */,
+				E141385526D683F600300CAA /* RecipeView.swift */,
+				E14137D026D510DE00300CAA /* RecipeViewModel.swift */,
 			);
 			path = TheCocktail;
 			sourceTree = "<group>";
@@ -103,6 +111,7 @@
 			children = (
 				E164322E26C44F2500535B47 /* Info.plist */,
 				E14137CE26D50B8500300CAA /* Recipe + Fixture.swift */,
+				E14137D226D515E100300CAA /* RecipeViewModelTests.swift */,
 			);
 			path = TheCocktailTests;
 			sourceTree = "<group>";
@@ -207,9 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E141385626D683F600300CAA /* RecipeView.swift in Sources */,
 				E14137CB26D5023B00300CAA /* Recipe.swift in Sources */,
 				E164321A26C44E9500535B47 /* ContentView.swift in Sources */,
 				E14137CD26D502A800300CAA /* CoctailsPreviewData.swift in Sources */,
+				E14137D126D510DE00300CAA /* RecipeViewModel.swift in Sources */,
 				E164321826C44E9500535B47 /* TheCocktailApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14137D326D515E100300CAA /* RecipeViewModelTests.swift in Sources */,
 				E14137CF26D50B8500300CAA /* Recipe + Fixture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
