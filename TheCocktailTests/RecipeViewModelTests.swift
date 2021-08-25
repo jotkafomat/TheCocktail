@@ -19,5 +19,15 @@ class RecipeViewModelTests: XCTestCase {
         //assert
         XCTAssertEqual(headline, "headline")
     }
+    
+    func test_RecipeViewModelDisplayImageURL() {
+        //arrange
+        let recipe = Recipe.fixture(thumbnail: URL(string:"https://media.guim.co.uk/04359a6bc8bdc2ca017a39be497a253cb4af4b38/0_955_3275_1965/500.jpg"))
+        let viewModel = RecipeView.ViewModel(recipe: recipe)
+        //act
+        let image = viewModel.image
+        //assert
+        XCTAssertEqual(image, recipe.thumbnail)
+    }
 
 }

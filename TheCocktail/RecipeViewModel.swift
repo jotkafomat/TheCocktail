@@ -12,10 +12,12 @@ extension RecipeView {
         
         private let recipe: Recipe
         let headline: String
+        let image: URL?
         
         init(recipe: Recipe) {
             self.recipe = recipe
             headline = recipe.headline
+            image = recipe.thumbnail
         }
     }
 }
