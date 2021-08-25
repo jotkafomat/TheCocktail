@@ -29,5 +29,15 @@ class RecipeViewModelTests: XCTestCase {
         //assert
         XCTAssertEqual(image, recipe.thumbnail)
     }
+    
+    func test_RecipeViewModelDisplaybyline() {
+        //arrange
+        let recipe = Recipe.fixture(byline: "Sam Jones")
+        let viewModel = RecipeView.ViewModel(recipe: recipe)
+        //act
+        let image = viewModel.byline
+        //assert
+        XCTAssertEqual(image, recipe.byline)
+    }
 
 }

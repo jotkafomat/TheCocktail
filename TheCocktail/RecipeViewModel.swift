@@ -13,11 +13,13 @@ extension RecipeView {
         private let recipe: Recipe
         let headline: String
         let image: URL?
+        let byline: String
         
         init(recipe: Recipe) {
             self.recipe = recipe
             headline = recipe.headline
             image = recipe.thumbnail
+            byline = recipe.byline
         }
     }
 }
