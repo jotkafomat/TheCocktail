@@ -5,10 +5,13 @@
 //  Created by Krzysztof Jankowski on 26/08/2021.
 //
 
+import Combine
 import XCTest
 @testable import TheCocktail
 
 class CocktailsListViewModelTests: XCTestCase {
+    
+    var cancellables = Set<AnyCancellable>()
 
     func testViewModelHasArrayOfCoctailsRecipes() throws {
         
@@ -24,11 +27,23 @@ class CocktailsListViewModelTests: XCTestCase {
     func testWhenFetchingStartsPublishesEmptyMenu() {
         let viewModel = CocktailsListView.ViewModel(recipesFetching: RecipesFetchingPlaceholder())
         
-        XCTAssertTrue(viewModel.recipes.isEmpty)
+        XCTAssert(viewModel.recipes.isEmpty)
     }
     
     func testWhenFetchingSucceedsPublishesRecipes() {
+
+        let viewModel = CocktailsListView.ViewModel(recipesFetching: RecipesFetchingPlaceholder())
+        let expectation = XCTestExpectation(description: "Fetches recipes from Publisher")
         
+        viewModel
+            .$recipes
+            .dropFirst()
+            .sink { value in
+                XCTAssertEqual(value, cocktails)
+                expectation.fulfill()
+            }
+            .store(in: &cancellables)
+        wait(for: [expectation], timeout: 0.1)
     }
 
 }

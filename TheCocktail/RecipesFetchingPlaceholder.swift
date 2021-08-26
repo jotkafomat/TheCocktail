@@ -11,6 +11,7 @@ import Combine
 class RecipesFetchingPlaceholder: RecipesFetching {
     func fetchRecipes() -> AnyPublisher<[Recipe], Error> {
         return Future { $0(.success(cocktails)) }
+            .delay(for: 0.001, scheduler: RunLoop.current)
             .eraseToAnyPublisher()
     }
 }
