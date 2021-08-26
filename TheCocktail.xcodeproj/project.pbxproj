@@ -17,6 +17,10 @@
 		E164321A26C44E9500535B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164321926C44E9500535B47 /* ContentView.swift */; };
 		E164321C26C44E9A00535B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E164321B26C44E9A00535B47 /* Assets.xcassets */; };
 		E164321F26C44E9A00535B47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E164321E26C44E9A00535B47 /* Preview Assets.xcassets */; };
+		E1BF8F3726D7BD4500F52F41 /* CocktailsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8F3626D7BD4500F52F41 /* CocktailsListView.swift */; };
+		E1BF8F3926D7BE8800F52F41 /* CocktailsListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8F3826D7BE8800F52F41 /* CocktailsListViewModelTests.swift */; };
+		E1BF8F3B26D7C1A400F52F41 /* CoctailsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8F3A26D7C1A400F52F41 /* CoctailsListViewModel.swift */; };
+		E1BF8F3D26D7C1D400F52F41 /* Recipe+Identifable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8F3C26D7C1D400F52F41 /* Recipe+Identifable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		E164322026C44E9A00535B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E164322A26C44F2400535B47 /* TheCocktailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCocktailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E164322E26C44F2500535B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BF8F3626D7BD4500F52F41 /* CocktailsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsListView.swift; sourceTree = "<group>"; };
+		E1BF8F3826D7BE8800F52F41 /* CocktailsListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsListViewModelTests.swift; sourceTree = "<group>"; };
+		E1BF8F3A26D7C1A400F52F41 /* CoctailsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailsListViewModel.swift; sourceTree = "<group>"; };
+		E1BF8F3C26D7C1D400F52F41 /* Recipe+Identifable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+Identifable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +99,11 @@
 				E164322026C44E9A00535B47 /* Info.plist */,
 				E164321D26C44E9A00535B47 /* Preview Content */,
 				E14137CA26D5023B00300CAA /* Recipe.swift */,
+				E1BF8F3C26D7C1D400F52F41 /* Recipe+Identifable.swift */,
 				E141385526D683F600300CAA /* RecipeView.swift */,
 				E14137D026D510DE00300CAA /* RecipeViewModel.swift */,
+				E1BF8F3626D7BD4500F52F41 /* CocktailsListView.swift */,
+				E1BF8F3A26D7C1A400F52F41 /* CoctailsListViewModel.swift */,
 			);
 			path = TheCocktail;
 			sourceTree = "<group>";
@@ -112,6 +123,7 @@
 				E164322E26C44F2500535B47 /* Info.plist */,
 				E14137CE26D50B8500300CAA /* Recipe + Fixture.swift */,
 				E14137D226D515E100300CAA /* RecipeViewModelTests.swift */,
+				E1BF8F3826D7BE8800F52F41 /* CocktailsListViewModelTests.swift */,
 			);
 			path = TheCocktailTests;
 			sourceTree = "<group>";
@@ -216,10 +228,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BF8F3B26D7C1A400F52F41 /* CoctailsListViewModel.swift in Sources */,
+				E1BF8F3726D7BD4500F52F41 /* CocktailsListView.swift in Sources */,
 				E141385626D683F600300CAA /* RecipeView.swift in Sources */,
 				E14137CB26D5023B00300CAA /* Recipe.swift in Sources */,
 				E164321A26C44E9500535B47 /* ContentView.swift in Sources */,
 				E14137CD26D502A800300CAA /* CoctailsPreviewData.swift in Sources */,
+				E1BF8F3D26D7C1D400F52F41 /* Recipe+Identifable.swift in Sources */,
 				E14137D126D510DE00300CAA /* RecipeViewModel.swift in Sources */,
 				E164321826C44E9500535B47 /* TheCocktailApp.swift in Sources */,
 			);
@@ -230,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E14137D326D515E100300CAA /* RecipeViewModelTests.swift in Sources */,
+				E1BF8F3926D7BE8800F52F41 /* CocktailsListViewModelTests.swift in Sources */,
 				E14137CF26D50B8500300CAA /* Recipe + Fixture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

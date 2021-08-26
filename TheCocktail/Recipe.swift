@@ -17,4 +17,3 @@ struct Recipe {
     let byline: String
     let body: String
 }
-
