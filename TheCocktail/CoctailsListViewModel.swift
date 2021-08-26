@@ -14,8 +14,8 @@ extension CocktailsListView {
         
         @Published private(set) var recipes: [Recipe]
         
-        init(recipes: [Recipe] = [Recipe]()) {
-            self.recipes = recipes
+        init(recipesFetching: RecipesFetching) {
+            self.recipes = [Recipe]()
         }
     }
 }

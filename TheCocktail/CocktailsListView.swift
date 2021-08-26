@@ -6,10 +6,6 @@
 //
 import SwiftUI
 
-
-
-
-
 struct CocktailsListView: View {
     
     let viewModel: ViewModel
@@ -25,6 +21,6 @@ struct CocktailsListView: View {
 
 struct CocktailsListView_Previews: PreviewProvider {
     static var previews: some View {
-        CocktailsListView(viewModel: CocktailsListView.ViewModel(recipes: cocktails))
+        CocktailsListView(viewModel: CocktailsListView.ViewModel(recipesFetching: RecipesFetchingPlaceholder()))
     }
 }
