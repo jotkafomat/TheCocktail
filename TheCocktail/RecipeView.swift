@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct RecipeView: View {
+    
     let viewModel: ViewModel
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(viewModel.byline)
             Text(viewModel.headline)
+            Text(viewModel.byline)
         }
     }
 }
