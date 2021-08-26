@@ -11,5 +11,9 @@ extension CocktailsListView {
     
     struct ViewModel {
         let recipes: [Recipe]
+        
+        init(recipes: [Recipe] = [Recipe]()) {
+            self.recipes = recipes
+        }
     }
 }

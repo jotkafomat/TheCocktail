@@ -18,5 +18,11 @@ class CocktailsListViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.recipes[0].id, "first recipe")
         XCTAssertEqual(viewModel.recipes[1].id, "second recipe")
     }
+    
+    func testWhenFetchingStartsPublishesEmptyMenu() {
+        let viewModel = CocktailsListView.ViewModel()
+        
+        XCTAssertTrue(viewModel.recipes.isEmpty)
+    }
 
 }
