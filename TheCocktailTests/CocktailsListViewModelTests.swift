@@ -24,5 +24,9 @@ class CocktailsListViewModelTests: XCTestCase {
         
         XCTAssertTrue(viewModel.recipes.isEmpty)
     }
+    
+    func testWhenFetchingSucceedsPublishesRecipes() {
+        
+    }
 
 }

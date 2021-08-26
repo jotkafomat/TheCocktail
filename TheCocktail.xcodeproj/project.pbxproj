@@ -21,6 +21,7 @@
 		E1BF8F3926D7BE8800F52F41 /* CocktailsListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8F3826D7BE8800F52F41 /* CocktailsListViewModelTests.swift */; };
 		E1BF8F3B26D7C1A400F52F41 /* CoctailsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8F3A26D7C1A400F52F41 /* CoctailsListViewModel.swift */; };
 		E1BF8F3D26D7C1D400F52F41 /* Recipe+Identifable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8F3C26D7C1D400F52F41 /* Recipe+Identifable.swift */; };
+		E1BF8F3F26D7C9BF00F52F41 /* RecipesFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8F3E26D7C9BF00F52F41 /* RecipesFetching.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		E1BF8F3826D7BE8800F52F41 /* CocktailsListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsListViewModelTests.swift; sourceTree = "<group>"; };
 		E1BF8F3A26D7C1A400F52F41 /* CoctailsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailsListViewModel.swift; sourceTree = "<group>"; };
 		E1BF8F3C26D7C1D400F52F41 /* Recipe+Identifable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+Identifable.swift"; sourceTree = "<group>"; };
+		E1BF8F3E26D7C9BF00F52F41 /* RecipesFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesFetching.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				E14137D026D510DE00300CAA /* RecipeViewModel.swift */,
 				E1BF8F3626D7BD4500F52F41 /* CocktailsListView.swift */,
 				E1BF8F3A26D7C1A400F52F41 /* CoctailsListViewModel.swift */,
+				E1BF8F3E26D7C9BF00F52F41 /* RecipesFetching.swift */,
 			);
 			path = TheCocktail;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				E141385626D683F600300CAA /* RecipeView.swift in Sources */,
 				E14137CB26D5023B00300CAA /* Recipe.swift in Sources */,
 				E164321A26C44E9500535B47 /* ContentView.swift in Sources */,
+				E1BF8F3F26D7C9BF00F52F41 /* RecipesFetching.swift in Sources */,
 				E14137CD26D502A800300CAA /* CoctailsPreviewData.swift in Sources */,
 				E1BF8F3D26D7C1D400F52F41 /* Recipe+Identifable.swift in Sources */,
 				E14137D126D510DE00300CAA /* RecipeViewModel.swift in Sources */,
