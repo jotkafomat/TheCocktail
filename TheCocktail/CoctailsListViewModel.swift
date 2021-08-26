@@ -6,11 +6,13 @@
 //
 
 import Foundation
+import Combine
 
 extension CocktailsListView {
     
-    struct ViewModel {
-        let recipes: [Recipe]
+    class ViewModel: ObservableObject {
+        
+        @Published private(set) var recipes: [Recipe]
         
         init(recipes: [Recipe] = [Recipe]()) {
             self.recipes = recipes
