@@ -11,10 +11,19 @@ struct CocktailsListView: View {
     @ObservedObject var viewModel: ViewModel
     
     var body: some View {
-        List {
-            ForEach(viewModel.recipes) { recipe in
-                RecipeView(viewModel: RecipeView.ViewModel(recipe: recipe))
+        switch viewModel.recipes {
+        case .success(let recipes):
+            List {
+                ForEach(recipes) { recipe in
+                    RecipeView(viewModel: RecipeView.ViewModel(recipe: recipe))
+                }
             }
+        case .failure(let error):
+            VStack {
+                Text("An error occurred")
+                Text(error.localizedDescription).italic()
+            }
+            
         }
     }
 }

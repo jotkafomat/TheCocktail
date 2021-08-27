@@ -25,6 +25,7 @@
 		E1BF8F4126D7CCCB00F52F41 /* RecipesFetchingPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8F4026D7CCCB00F52F41 /* RecipesFetchingPlaceholder.swift */; };
 		E1BF8F4326D7E4FC00F52F41 /* Recipe + Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8F4226D7E4FC00F52F41 /* Recipe + Equatable.swift */; };
 		E1BF8FAD26D9200200F52F41 /* RecipeFetchingStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8FAC26D9200200F52F41 /* RecipeFetchingStub.swift */; };
+		E1BF8FAF26D92BB900F52F41 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8FAE26D92BB900F52F41 /* TestError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		E1BF8F4026D7CCCB00F52F41 /* RecipesFetchingPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesFetchingPlaceholder.swift; sourceTree = "<group>"; };
 		E1BF8F4226D7E4FC00F52F41 /* Recipe + Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe + Equatable.swift"; sourceTree = "<group>"; };
 		E1BF8FAC26D9200200F52F41 /* RecipeFetchingStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFetchingStub.swift; sourceTree = "<group>"; };
+		E1BF8FAE26D92BB900F52F41 /* TestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				E14137D226D515E100300CAA /* RecipeViewModelTests.swift */,
 				E1BF8F3826D7BE8800F52F41 /* CocktailsListViewModelTests.swift */,
 				E1BF8FAC26D9200200F52F41 /* RecipeFetchingStub.swift */,
+				E1BF8FAE26D92BB900F52F41 /* TestError.swift */,
 			);
 			path = TheCocktailTests;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E14137D326D515E100300CAA /* RecipeViewModelTests.swift in Sources */,
+				E1BF8FAF26D92BB900F52F41 /* TestError.swift in Sources */,
 				E1BF8FAD26D9200200F52F41 /* RecipeFetchingStub.swift in Sources */,
 				E1BF8F3926D7BE8800F52F41 /* CocktailsListViewModelTests.swift in Sources */,
 				E14137CF26D50B8500300CAA /* Recipe + Fixture.swift in Sources */,

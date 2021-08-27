@@ -12,17 +12,19 @@ extension CocktailsListView {
     
     class ViewModel: ObservableObject {
         
-        @Published private(set) var recipes: [Recipe]
+        @Published private(set) var recipes: Result<[Recipe], Error> = .success([])
         var cancellables = Set<AnyCancellable>()
 
         init(recipesFetching: RecipesFetching) {
-            self.recipes = [Recipe]()
             recipesFetching
                 .fetchRecipes()
                 .sink(
-                    receiveCompletion: {_ in },
+                    receiveCompletion: { [weak self] completion in
+                        guard case .failure(let error) = completion else { return }
+                        self?.recipes = .failure(error)
+                    },
                     receiveValue: { [weak self] value in
-                        self?.recipes = value
+                        self?.recipes = .success(value)
                     }
                 )
                 .store(in: &cancellables)

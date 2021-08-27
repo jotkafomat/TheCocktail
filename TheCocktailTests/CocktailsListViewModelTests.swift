@@ -13,21 +13,24 @@ class CocktailsListViewModelTests: XCTestCase {
     
     var cancellables = Set<AnyCancellable>()
 
-    func testViewModelHasArrayOfCoctailsRecipes() throws {
-        
-        try XCTSkipIf(true, "skipping for now, keeping it to reuse part of the code")
-        let recipes = [Recipe.fixture(id:"first recipe"), Recipe.fixture(id: "second recipe")]
-        let viewModel = CocktailsListView.ViewModel(recipesFetching: RecipesFetchingPlaceholder())
-        
-        XCTAssertEqual(viewModel.recipes.count, 2)
-        XCTAssertEqual(viewModel.recipes[0].id, "first recipe")
-        XCTAssertEqual(viewModel.recipes[1].id, "second recipe")
-    }
+//    func testViewModelHasArrayOfCoctailsRecipes() throws {
+//
+//        try XCTSkipIf(true, "skipping for now, keeping it to reuse part of the code")
+//        let recipes = [Recipe.fixture(id:"first recipe"), Recipe.fixture(id: "second recipe")]
+//        let viewModel = CocktailsListView.ViewModel(recipesFetching: RecipesFetchingPlaceholder())
+//
+//        XCTAssertEqual(viewModel.recipes.count, 2)
+//        XCTAssertEqual(viewModel.recipes[0].id, "first recipe")
+//        XCTAssertEqual(viewModel.recipes[1].id, "second recipe")
+//    }
     
-    func testWhenFetchingStartsPublishesEmptyMenu() {
-        let viewModel = CocktailsListView.ViewModel(recipesFetching: RecipesFetchingPlaceholder())
+    func testWhenFetchingStartsPublishesEmptyMenu() throws {
+        let cocktailsList = [Recipe.fixture(), Recipe.fixture()]
+        let viewModel = CocktailsListView.ViewModel(recipesFetching: RecipeFetchingStub(returning: .success(cocktailsList)))
         
-        XCTAssert(viewModel.recipes.isEmpty)
+        let recipes = try viewModel.recipes.get()
+        
+        XCTAssert(recipes.isEmpty)
     }
     
     func testWhenFetchingSucceedsPublishesRecipes() {
@@ -39,7 +42,10 @@ class CocktailsListViewModelTests: XCTestCase {
             .$recipes
             .dropFirst()
             .sink { value in
-                XCTAssertEqual(value, cocktailsList)
+                guard case .success(let recipes) = value else {
+                    return XCTFail("Expected a successful Result, got \(value)")
+                }
+                XCTAssertEqual(recipes, cocktailsList)
                 expectation.fulfill()
             }
             .store(in: &cancellables)
@@ -56,7 +62,9 @@ class CocktailsListViewModelTests: XCTestCase {
         viewModel
             .$recipes
             .sink { value in
-                
+                guard case .success(let value) = value else {
+                    return XCTFail("Expected a successful Result, got \(value)")
+                }
                 values = values + [value]
                 guard values.count == 2 else { return }
                 
@@ -75,8 +83,36 @@ class CocktailsListViewModelTests: XCTestCase {
             .store(in: &cancellables)
         wait(for: [expectation], timeout: 0.1)
     }
+    func testWhenFetchingFailsPublishesAnError() {
+        let expectedError = TestError(id: 123)
+        let recipeFetchingStub = RecipeFetchingStub(returning: .failure(expectedError))
+        
+        let viewModel = CocktailsListView.ViewModel(recipesFetching: recipeFetchingStub)
+        
+        let expectation = XCTestExpectation(description: "Publishes an error")
+        
+        viewModel
+            .$recipes
+            .dropFirst()
+            .sink { value in
+                guard case .failure(let error) = value else {
+                    return XCTFail("Expected a failing Result, got: \(value)")
+                }
+                XCTAssertEqual(error as? TestError, expectedError)
+                expectation.fulfill()
+            }
+            .store(in: &cancellables)
+        wait(for: [expectation], timeout: 1)
+    }
 
 }
+
+
+
+
+
+
+
 
 public extension Array {
     subscript (safe index: Int) -> Element? {
