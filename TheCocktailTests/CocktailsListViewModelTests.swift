@@ -31,15 +31,15 @@ class CocktailsListViewModelTests: XCTestCase {
     }
     
     func testWhenFetchingSucceedsPublishesRecipes() {
-
-        let viewModel = CocktailsListView.ViewModel(recipesFetching: RecipesFetchingPlaceholder())
+        let cocktailsList = [Recipe.fixture(), Recipe.fixture()]
+        let viewModel = CocktailsListView.ViewModel(recipesFetching: RecipeFetchingStub(returning: .success(cocktailsList)))
         let expectation = XCTestExpectation(description: "Fetches recipes from Publisher")
         
         viewModel
             .$recipes
             .dropFirst()
             .sink { value in
-                XCTAssertEqual(value, cocktails)
+                XCTAssertEqual(value, cocktailsList)
                 expectation.fulfill()
             }
             .store(in: &cancellables)
@@ -48,7 +48,8 @@ class CocktailsListViewModelTests: XCTestCase {
     
     func testWhenFetchingSucceedsPublishesRecipesAfterEmptyArray() {
 
-        let viewModel = CocktailsListView.ViewModel(recipesFetching: RecipesFetchingPlaceholder())
+        let cocktailsList = [Recipe.fixture(), Recipe.fixture()]
+        let viewModel = CocktailsListView.ViewModel(recipesFetching: RecipeFetchingStub(returning: .success(cocktailsList)))
         let expectation = XCTestExpectation(description: "Fetches recipes from Publisher")
         var values: [[Recipe]] = []
         
