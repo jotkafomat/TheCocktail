@@ -8,7 +8,7 @@ import SwiftUI
 
 struct CocktailsListView: View {
     
-    let viewModel: ViewModel
+    @ObservedObject var viewModel: ViewModel
     
     var body: some View {
         List {
