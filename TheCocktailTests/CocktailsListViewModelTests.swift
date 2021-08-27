@@ -45,5 +45,40 @@ class CocktailsListViewModelTests: XCTestCase {
             .store(in: &cancellables)
         wait(for: [expectation], timeout: 0.1)
     }
+    
+    func testWhenFetchingSucceedsPublishesRecipesAfterEmptyArray() {
 
+        let viewModel = CocktailsListView.ViewModel(recipesFetching: RecipesFetchingPlaceholder())
+        let expectation = XCTestExpectation(description: "Fetches recipes from Publisher")
+        var values: [[Recipe]] = []
+        
+        viewModel
+            .$recipes
+            .sink { value in
+                
+                values = values + [value]
+                guard values.count == 2 else { return }
+                
+                guard let defaultCoctails = values.first else {
+                    return XCTFail("Value has no elements but expected one")
+                }
+                XCTAssert(defaultCoctails.isEmpty)
+                
+                guard let cocktails = values[safe: 1] else {
+                    return XCTFail("Expected a value at index 1, got none")
+                }
+                
+                XCTAssertEqual(value, cocktails)
+                expectation.fulfill()
+            }
+            .store(in: &cancellables)
+        wait(for: [expectation], timeout: 0.1)
+    }
+
+}
+
+public extension Array {
+    subscript (safe index: Int) -> Element? {
+        return self.indices ~= index ? self[index] : nil
+    }
 }
