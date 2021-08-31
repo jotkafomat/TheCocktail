@@ -28,6 +28,8 @@
 		E1BF8FAF26D92BB900F52F41 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF8FAE26D92BB900F52F41 /* TestError.swift */; };
 		E1BF908226DE68A000F52F41 /* recipeItem.json in Resources */ = {isa = PBXBuildFile; fileRef = E1BF908126DE68A000F52F41 /* recipeItem.json */; };
 		E1BF908426DE69EE00F52F41 /* RecipeItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF908326DE69EE00F52F41 /* RecipeItemTests.swift */; };
+		E1BF908626DE74EE00F52F41 /* Recipe + Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF908526DE74EE00F52F41 /* Recipe + Decodable.swift */; };
+		E1BF908C26DE76E100F52F41 /* recipeItems.json in Resources */ = {isa = PBXBuildFile; fileRef = E1BF908B26DE76E100F52F41 /* recipeItems.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		E1BF8FAE26D92BB900F52F41 /* TestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
 		E1BF908126DE68A000F52F41 /* recipeItem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipeItem.json; sourceTree = "<group>"; };
 		E1BF908326DE69EE00F52F41 /* RecipeItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItemTests.swift; sourceTree = "<group>"; };
+		E1BF908526DE74EE00F52F41 /* Recipe + Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe + Decodable.swift"; sourceTree = "<group>"; };
+		E1BF908B26DE76E100F52F41 /* recipeItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipeItems.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 				E164322026C44E9A00535B47 /* Info.plist */,
 				E164321D26C44E9A00535B47 /* Preview Content */,
 				E14137CA26D5023B00300CAA /* Recipe.swift */,
+				E1BF908526DE74EE00F52F41 /* Recipe + Decodable.swift */,
 				E1BF8F3C26D7C1D400F52F41 /* Recipe+Identifable.swift */,
 				E1BF8F4226D7E4FC00F52F41 /* Recipe + Equatable.swift */,
 				E141385526D683F600300CAA /* RecipeView.swift */,
@@ -145,6 +150,7 @@
 				E1BF8FAE26D92BB900F52F41 /* TestError.swift */,
 				E1BF908126DE68A000F52F41 /* recipeItem.json */,
 				E1BF908326DE69EE00F52F41 /* RecipeItemTests.swift */,
+				E1BF908B26DE76E100F52F41 /* recipeItems.json */,
 			);
 			path = TheCocktailTests;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BF908C26DE76E100F52F41 /* recipeItems.json in Resources */,
 				E1BF908226DE68A000F52F41 /* recipeItem.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +261,7 @@
 				E1BF8F3726D7BD4500F52F41 /* CocktailsListView.swift in Sources */,
 				E1BF8F4326D7E4FC00F52F41 /* Recipe + Equatable.swift in Sources */,
 				E141385626D683F600300CAA /* RecipeView.swift in Sources */,
+				E1BF908626DE74EE00F52F41 /* Recipe + Decodable.swift in Sources */,
 				E14137CB26D5023B00300CAA /* Recipe.swift in Sources */,
 				E164321A26C44E9500535B47 /* ContentView.swift in Sources */,
 				E1BF8F4126D7CCCB00F52F41 /* RecipesFetchingPlaceholder.swift in Sources */,
