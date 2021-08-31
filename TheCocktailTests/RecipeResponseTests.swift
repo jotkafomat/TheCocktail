@@ -18,4 +18,14 @@ class RecipeResponseTest: XCTestCase {
         
         XCTAssertNoThrow(try JSONDecoder().decode(RecipeResponse.self, from: data))
     }
+    
+    func testRecipeResponseHasItems() throws {
+        let url = try XCTUnwrap(Bundle(for: type(of: self)).url(forResource:"recipeItems",withExtension:"json"))
+        let data = try Data(contentsOf: url)
+        
+        let response = try Recipe.decoder.decode(RecipeResponse.self, from: data)
+        
+        XCTAssertEqual(response.results.count, 3)
+    }
+
 }
