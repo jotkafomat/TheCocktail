@@ -30,6 +30,8 @@
 		E1BF908426DE69EE00F52F41 /* RecipeItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF908326DE69EE00F52F41 /* RecipeItemTests.swift */; };
 		E1BF908626DE74EE00F52F41 /* Recipe + Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF908526DE74EE00F52F41 /* Recipe + Decodable.swift */; };
 		E1BF908C26DE76E100F52F41 /* recipeItems.json in Resources */ = {isa = PBXBuildFile; fileRef = E1BF908B26DE76E100F52F41 /* recipeItems.json */; };
+		E1BF908E26DE79D300F52F41 /* RecipeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF908D26DE79D300F52F41 /* RecipeResponse.swift */; };
+		E1BF909026DE7A0C00F52F41 /* RecipeResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF908F26DE7A0C00F52F41 /* RecipeResponseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		E1BF908326DE69EE00F52F41 /* RecipeItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItemTests.swift; sourceTree = "<group>"; };
 		E1BF908526DE74EE00F52F41 /* Recipe + Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe + Decodable.swift"; sourceTree = "<group>"; };
 		E1BF908B26DE76E100F52F41 /* recipeItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipeItems.json; sourceTree = "<group>"; };
+		E1BF908D26DE79D300F52F41 /* RecipeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResponse.swift; sourceTree = "<group>"; };
+		E1BF908F26DE7A0C00F52F41 /* RecipeResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResponseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 				E1BF8F3A26D7C1A400F52F41 /* CoctailsListViewModel.swift */,
 				E1BF8F3E26D7C9BF00F52F41 /* RecipesFetching.swift */,
 				E1BF8F4026D7CCCB00F52F41 /* RecipesFetchingPlaceholder.swift */,
+				E1BF908D26DE79D300F52F41 /* RecipeResponse.swift */,
 			);
 			path = TheCocktail;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				E1BF908126DE68A000F52F41 /* recipeItem.json */,
 				E1BF908326DE69EE00F52F41 /* RecipeItemTests.swift */,
 				E1BF908B26DE76E100F52F41 /* recipeItems.json */,
+				E1BF908F26DE7A0C00F52F41 /* RecipeResponseTests.swift */,
 			);
 			path = TheCocktailTests;
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 				E1BF8F4126D7CCCB00F52F41 /* RecipesFetchingPlaceholder.swift in Sources */,
 				E1BF8F3F26D7C9BF00F52F41 /* RecipesFetching.swift in Sources */,
 				E14137CD26D502A800300CAA /* CoctailsPreviewData.swift in Sources */,
+				E1BF908E26DE79D300F52F41 /* RecipeResponse.swift in Sources */,
 				E1BF8F3D26D7C1D400F52F41 /* Recipe+Identifable.swift in Sources */,
 				E14137D126D510DE00300CAA /* RecipeViewModel.swift in Sources */,
 				E164321826C44E9500535B47 /* TheCocktailApp.swift in Sources */,
@@ -278,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E14137D326D515E100300CAA /* RecipeViewModelTests.swift in Sources */,
+				E1BF909026DE7A0C00F52F41 /* RecipeResponseTests.swift in Sources */,
 				E1BF8FAF26D92BB900F52F41 /* TestError.swift in Sources */,
 				E1BF8FAD26D9200200F52F41 /* RecipeFetchingStub.swift in Sources */,
 				E1BF8F3926D7BE8800F52F41 /* CocktailsListViewModelTests.swift in Sources */,
