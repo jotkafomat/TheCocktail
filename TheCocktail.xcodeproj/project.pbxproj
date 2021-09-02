@@ -33,6 +33,8 @@
 		E1BF90CC26E0D75200F52F41 /* recipeItem.json in Resources */ = {isa = PBXBuildFile; fileRef = E1BF90CB26E0D75200F52F41 /* recipeItem.json */; };
 		E1BF90CE26E0DCF500F52F41 /* RecipesFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF90CD26E0DCF500F52F41 /* RecipesFetcherTests.swift */; };
 		E1BF90D026E0DED400F52F41 /* RecipesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF90CF26E0DED400F52F41 /* RecipesFetcher.swift */; };
+		E1BF90D226E0E4DB00F52F41 /* NetworkFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF90D126E0E4DB00F52F41 /* NetworkFetching.swift */; };
+		E1BF90D426E0E54C00F52F41 /* URLSessios+NetworkFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF90D326E0E54C00F52F41 /* URLSessios+NetworkFetching.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		E1BF90CB26E0D75200F52F41 /* recipeItem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipeItem.json; sourceTree = "<group>"; };
 		E1BF90CD26E0DCF500F52F41 /* RecipesFetcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesFetcherTests.swift; sourceTree = "<group>"; };
 		E1BF90CF26E0DED400F52F41 /* RecipesFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesFetcher.swift; sourceTree = "<group>"; };
+		E1BF90D126E0E4DB00F52F41 /* NetworkFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetching.swift; sourceTree = "<group>"; };
+		E1BF90D326E0E54C00F52F41 /* URLSessios+NetworkFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSessios+NetworkFetching.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 				E1BF8F4026D7CCCB00F52F41 /* RecipesFetchingPlaceholder.swift */,
 				E1BF908D26DE79D300F52F41 /* RecipeResponse.swift */,
 				E1BF90CF26E0DED400F52F41 /* RecipesFetcher.swift */,
+				E1BF90D126E0E4DB00F52F41 /* NetworkFetching.swift */,
+				E1BF90D326E0E54C00F52F41 /* URLSessios+NetworkFetching.swift */,
 			);
 			path = TheCocktail;
 			sourceTree = "<group>";
@@ -267,12 +273,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1BF8F3B26D7C1A400F52F41 /* CoctailsListViewModel.swift in Sources */,
+				E1BF90D226E0E4DB00F52F41 /* NetworkFetching.swift in Sources */,
 				E1BF8F3726D7BD4500F52F41 /* CocktailsListView.swift in Sources */,
 				E1BF8F4326D7E4FC00F52F41 /* Recipe + Equatable.swift in Sources */,
 				E141385626D683F600300CAA /* RecipeView.swift in Sources */,
 				E1BF908626DE74EE00F52F41 /* Recipe + Decodable.swift in Sources */,
 				E14137CB26D5023B00300CAA /* Recipe.swift in Sources */,
 				E1BF8F4126D7CCCB00F52F41 /* RecipesFetchingPlaceholder.swift in Sources */,
+				E1BF90D426E0E54C00F52F41 /* URLSessios+NetworkFetching.swift in Sources */,
 				E1BF8F3F26D7C9BF00F52F41 /* RecipesFetching.swift in Sources */,
 				E14137CD26D502A800300CAA /* CoctailsPreviewData.swift in Sources */,
 				E1BF90D026E0DED400F52F41 /* RecipesFetcher.swift in Sources */,
