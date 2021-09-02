@@ -1,0 +1,318 @@
+{
+    "response": {
+        "status": "ok",
+        "userTier": "developer",
+        "total": 187,
+        "startIndex": 1,
+        "pageSize": 3,
+        "currentPage": 1,
+        "pages": 63,
+        "orderBy": "newest",
+        "tag": {
+            "id": "food/series/the-good-mixer",
+            "type": "series",
+            "sectionId": "food",
+            "sectionName": "Food",
+            "webTitle": "The good mixer",
+            "webUrl": "https://www.theguardian.com/food/series/the-good-mixer",
+            "apiUrl": "https://content.guardianapis.com/food/series/the-good-mixer"
+        },
+        "results": [
+            {
+                "id": "food/2021/aug/13/cocktail-of-the-week-pali-hill-champagne-lassi-recipe-mango-sorbet-indian-independence-day",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-08-13T15:00:13Z",
+                "webTitle": "Cocktail of the week: Pali Hill’s champagne lassi – recipe | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2021/aug/13/cocktail-of-the-week-pali-hill-champagne-lassi-recipe-mango-sorbet-indian-independence-day",
+                "apiUrl": "https://content.guardianapis.com/food/2021/aug/13/cocktail-of-the-week-pali-hill-champagne-lassi-recipe-mango-sorbet-indian-independence-day",
+                "fields": {
+                    "headline": "Cocktail of the week: Pali Hill’s champagne lassi – recipe",
+                    "trailText": "Mango sorbet, apricot liqueur and a suggestion of single malt topped with champagne: raise a stylish glass to India’s Independence Day",
+                    "byline": "Avinash Shashidhara",
+                    "body": "<p>No celebration is complete without a glass of something fizzy, and this fruit-lassi-meets-champagne-cocktail number ticks all the boxes to get Indian Independence Day this weekend off on the right foot. (At the restaurant, we dissolve a little <a href=\"https://www.google.com/search?q=yoghurt+powder+uk&amp;oq=yoghurt+powder+uk&amp;aqs=chrome.0.0l8.4081j0j9&amp;sourceid=chrome&amp;ie=UTF-8\">yoghurt powder</a> into the apricot liqueur – 3½g per 700ml bottle, if you fancy giving it a go yourself – but that’s probably a step too far for at home.)</p> <h2>Champagne lassi</h2> <p>Serves <strong>1</strong></p> <p><strong>½ scoop mango sorbet</strong> – shop-bought or homemade (see our simple recipe below)<br><strong>2½ml (ie, just under ½ tsp) good single malt whisky</strong> – we use <a href=\"https://www.glenfiddich.com/uk/shop/grand-cru/\">Glenfiddich Grand Cru</a><strong><br>5ml </strong><strong>apricot liqueur </strong>– we use <a href=\"https://briottet.fr/en/produit/apricot-liqueur/\">Briottet</a><br><strong>75ml champagne</strong>, to top</p> <p>For the sorbet (optional)<br><strong>3 ripe mangoes</strong>, peeled and stoned (or tinned mango pulp when not in season)<br><strong>200g caster sugar<br>The juice of 1 lime</strong></p> <p>To make the sorbet at home, put the mango flesh in a blender, add the sugar, lime juice and 200ml water, then blend smooth, making sure the sugar dissolves. Churn in an ice-cream machine, or pour into container and freeze, stirring every 30 minutes or so, until set. Store for up to three months.</p> <p>Put the sorbet in the base of a coupe, then pour over the whisky and apricot liqueur. Top with champagne and serve immediately.</p> <p>• Avinash Shashidhara, head chef, <a href=\"https://palihill.co.uk/\">Pali Hill</a>, London W1</p> <ul> <li><p>UK readers: <a href=\"https://www.ocado.com/search?entry=10000091392&amp;utm_source=guardian-feast&amp;utm_medium=referral&amp;utm_campaign=guardian-feast-recipe\">click to buy these ingredients</a> from Ocado</p></li> </ul>",
+                    "firstPublicationDate": "2021-08-13T15:00:13Z",
+                    "thumbnail": "https://media.guim.co.uk/04359a6bc8bdc2ca017a39be497a253cb4af4b38/0_955_3275_1965/500.jpg"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            },
+            {
+                "id": "food/2021/jan/08/cocktail-of-the-week-madonna-michelada-recipe",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-01-08T16:00:27Z",
+                "webTitle": "Cocktail of the week: Madonna michelada – recipe | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2021/jan/08/cocktail-of-the-week-madonna-michelada-recipe",
+                "apiUrl": "https://content.guardianapis.com/food/2021/jan/08/cocktail-of-the-week-madonna-michelada-recipe",
+                "fields": {
+                    "headline": "Cocktail of the week: Madonna michelada – recipe",
+                    "trailText": "An alcohol-free take on the Mexican favourite that still delivers that much-needed endorphin rush",
+                    "byline": "Kate Hawkings",
+                    "body": "<p>An alcohol-free riff on a Mexican <a href=\"https://www.theguardian.com/food/2020/apr/10/cocktail-of-the-week-sams-michelada-bloody-mary-style-good-mixer\">michelada</a>, replacing the lager with ginger beer, as well as doing away with the tomato juice and Worcestershire sauce found in some recipes, yet still delivering that nice little endorphin rush you get from the original. A salt-and-chilli rim is nice, but not essential.</p> <h2>Madonna michelada</h2> <p>Serves <strong>1</strong></p> <p><strong>250ml ginger beer</strong>, the hotter, the better <br><strong>Juice of 2 limes<br>Salt and chilli</strong>, to rim the glass – if you want to be flash, blitz up a poblano or chipotle, otherwise use ordinary chilli powder (optional)<br><strong>Tabas</strong><strong>co</strong>, to taste<br><strong>1 sprig fresh mint</strong>, to garnish (optional)</p> <p>Pour the ginger beer and lime juice into a tall glass (rimmed with salt and chilli, if you like), throw in a few ice cubes, then add the Tabasco – start with around a dozen drops, stir, then add more if you’d like to ramp up the heat. Garnish with mint, if you like, and serve.</p> <p>• Kate Hawkings, author of <a href=\"https://guardianbookshop.com/aperitif-9781787131262.html\">Aperitif</a> (Quadrille, £16.99)</p>",
+                    "firstPublicationDate": "2021-01-08T16:00:27Z",
+                    "thumbnail": "https://media.guim.co.uk/244a484ba3b25bfa71eace336e00d21a7bee46e8/1311_929_2892_1736/500.jpg"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            },
+            {
+                "id": "food/2020/dec/18/cocktail-of-the-week-cafe-baos-spiced-plum-sour-recipe",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2020-12-18T16:00:10Z",
+                "webTitle": "Cocktail of the week: Cafe Bao's spiced plum sour – recipe | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2020/dec/18/cocktail-of-the-week-cafe-baos-spiced-plum-sour-recipe",
+                "apiUrl": "https://content.guardianapis.com/food/2020/dec/18/cocktail-of-the-week-cafe-baos-spiced-plum-sour-recipe",
+                "fields": {
+                    "headline": "Cocktail of the week: Cafe Bao's spiced plum sour – recipe",
+                    "trailText": "A festive twist on the classic plum sour, with green plum sake, miso syrup and a bouquet of spices",
+                    "byline": "Cameron Malik Flynn",
+                    "body": "<p>A nifty little twist on the classic plum sour, featuring subtle plum notes from the umeshu sake, a hint of festive spices from the infused gin and a rich, umami undertone from the white miso syrup.</p> <h2>Spiced plum sour</h2> <p>For the spiced gin<strong><br></strong><strong>175ml </strong><strong>gin</strong> – we use <a href=\"https://rokugin.suntory.com/en/global\">Suntory’s Roku gin</a><br><strong>1 cinnamon stick<br>¼ star anise</strong></p> <p>For the miso syrup<br><strong>15g white miso<br>100g caster sugar<br>50ml boiling water</strong></p> <p>For the drink<br><strong>20ml infused gin</strong> (see above and method)<br><strong>15ml miso syrup</strong> (see above and method)<br><strong>25ml fresh lemon juice<br>20ml umeshu sake<br>5ml (1 tsp) blue curaçao <br>1 egg white </strong>(or 20ml aqua faba)</p> <p>First, infuse the gin. Put the gin in a sterilised jar, add the cinnamon and star anise, seal and leave to steep for up to 24 hours. Start tasting every hour or so after three or four hours, to check how much stronger you want the spices to show through – you need only a very gentle infusion here. Fine-strain to remove any tiny, loose bits of spice, jar again and seal.</p> <p>To make the miso syrup, put the white miso in a bowl with the caster sugar, add the boiling water and whisk until the sugar dissolves.</p> <p>To build the drink, put the measures of spiced gin, syrup, lemon juice, sake and curaçao in a shaker, add the egg white (or aqua faba) and shake hard without ice – this will help create a silky foam. Add ice, shake again, then strain into a wine glass or coupette (chilled, if you like, and we do), and serve.</p> <p>• Cameron Malik Flynn, <a href=\"https://baolondon.com/restaurant/cafe-bao/\">Cafe Bao</a>, London N1</p>",
+                    "firstPublicationDate": "2020-12-18T16:00:10Z",
+                    "thumbnail": "https://media.guim.co.uk/383f5e7558356ad1ab380d917920a4a8ade4d531/385_1291_5105_3063/500.jpg"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            }
+        ],
+        "leadContent": [
+            {
+                "id": "food/2021/aug/27/cocktail-of-the-week-three-sheets-blackcurrant-americano-vodka-vermouth-campari-recipe",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-08-27T15:00:11Z",
+                "webTitle": "Cocktail of the week: Three Sheets’ blackcurrant americano – recipe | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2021/aug/27/cocktail-of-the-week-three-sheets-blackcurrant-americano-vodka-vermouth-campari-recipe",
+                "apiUrl": "https://content.guardianapis.com/food/2021/aug/27/cocktail-of-the-week-three-sheets-blackcurrant-americano-vodka-vermouth-campari-recipe",
+                "fields": {
+                    "headline": "Cocktail of the week: Three Sheets’ blackcurrant americano – recipe",
+                    "trailText": "The classic Italian aperitif gets a summery berry boost",
+                    "byline": "Max and Noel Venning",
+                    "body": "<p>This is one to make in advance and store in the fridge, where it will keep happily for at least two months. If you like, replace the vermouth and Campari with 300ml <a href=\"https://www.google.com/search?q=Mauro+Vergano+Americano+UK&amp;ei=ntvBYI3bCNuQ8gKp7LeAAg&amp;oq=Mauro+Vergano+Americano+UK&amp;gs_lcp=Cgdnd3Mtd2l6EAM6BQgAELADOgYIABAWEB46BAgAEA06AggAOgUIIRCgAVCkkwFY3KYBYPupAWgBcAB4AYABZ4gBqwSSAQM3LjGYAQCgAQGqAQdnd3Mtd2l6yAEBwAEB&amp;sclient=gws-wiz&amp;ved=0ahUKEwiNoufK4IzxAhVbiFwKHSn2DSAQ4dUDCA4&amp;uact=5\">Vergano Americano</a>.</p> <h2><strong>Blackcurrant americano</strong></h2> <p>Makes <strong>10 servings</strong></p> <p>For the vodka infusion<br><strong>100ml vodka<br>3g loose-leaf earl grey tea</strong></p> <p>For the drink<br><strong>100ml earl grey-infused vodka </strong>(see above and method)<br><strong>150ml sweet vermouth<br>150ml Campari<br>100ml blackcurrant cordial</strong> - we make our own, but a good one such as <a href=\"https://www.belvoirfarm.co.uk/product/100-natural-blackcurrant/\">Belvoir</a> will work well, too<br><strong>5 drops rosewater<br>Soda water</strong>, to top<br><strong>1 slice orange</strong> (or 1 orange leaf), to garnish</p> <p>Put the vodka in a jug or jar, add the tea and leave to steep for 10 minutes. Strain into a clean jug and add the vermouth, Campari, blackcurrant cordial and rosewater, and stir to combine. Transfer to a sterilised bottle, seal and keep in the fridge.</p> <p>For each serving, pour 50ml of the americano mix into a highball glass filled to the brim with ice, top with soda water and stir gently. Garnish with an orange slice and serve.</p> <p>• Max and Noel Venning, <a href=\"http://www.threesheets-bar.com/\">Three Sheets</a>, London E8<br></p> <ul> <li><p>UK readers: <a href=\"https://www.ocado.com/search?entry=10000092623&amp;utm_campaign=guardian-feast-recipe&amp;utm_medium=referral&amp;utm_source=guardian-feast\">click to buy these ingredients</a> from Ocado <br></p></li> </ul>",
+                    "firstPublicationDate": "2021-08-27T15:00:11Z",
+                    "thumbnail": "https://media.guim.co.uk/620dbb777e8d0307020e4d6ee3c0cd31f2384d17/108_1640_5185_3110/500.jpg"
+                },
+                "tags": [],
+                "references": [],
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            },
+            {
+                "id": "food/2021/aug/20/cocktail-of-the-week-maverick-recipe-schofields-bar-manchester-vodka-peach-prosecco",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-08-20T15:00:38Z",
+                "webTitle": "Cocktail of the week: maverick – recipe | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2021/aug/20/cocktail-of-the-week-maverick-recipe-schofields-bar-manchester-vodka-peach-prosecco",
+                "apiUrl": "https://content.guardianapis.com/food/2021/aug/20/cocktail-of-the-week-maverick-recipe-schofields-bar-manchester-vodka-peach-prosecco",
+                "fields": {
+                    "headline": "Cocktail of the week: Schofield’s Bar’s maverick – recipe",
+                    "trailText": "A tropical treat with a vodka kick and prosecco bubbles to lift the fruit",
+                    "byline": "Joe and Daniel Schofield",
+                    "body": "<p>This is our vibrant and tropical homage to the celebrated spritz. It’s a great alfresco refresher for a warm, late summer’s day.</p> <h2>Maverick</h2> <p>Serves <strong>1</strong></p> <p><strong>15ml </strong><strong>vodka</strong> – we use <a href=\"https://www.finlandia.com/en/\">Finlandia </a><br><strong>10ml peach liqueur </strong>– we use <a href=\"https://www.diffordsguide.com/beer-wine-spirits/1588/merlet-creme-de-peche\">Merlet crème de pêche</a><strong><br>10ml passionfruit syrup<br>½ tsp (2½ml) <a href=\"https://www.sazerac.com/our-brands/sazerac-brands/peychauds.html\">Peychaud’s bitters</a><br>100ml prosecco</strong><br><strong>1 orange slice or twist</strong>, to finish</p> <p>Fill a wine glass with ice, pour in all the liquids and stir gently to combine. Garnish with orange and serve.</p> <ul> <li><p>UK readers: <a href=\"https://www.ocado.com/search?entry=10000091469&amp;utm_source=guardian-feast&amp;utm_medium=referral&amp;utm_campaign=guardian-feast-recipe\">click to buy these ingredients</a> from Ocado</p></li> </ul> <p>• Joe and Daniel Schofield, owners, <a href=\"https://www.schofieldsbar.com/\">Schofield’s Bar</a>, Manchester</p>",
+                    "firstPublicationDate": "2021-08-20T15:00:38Z",
+                    "thumbnail": "https://media.guim.co.uk/3a2f1121fff5c54cf7c8026ecec4ea219304c537/0_1751_5150_3090/500.jpg"
+                },
+                "tags": [],
+                "references": [],
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            },
+            {
+                "id": "food/2021/aug/13/cocktail-of-the-week-pali-hill-champagne-lassi-recipe-mango-sorbet-indian-independence-day",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-08-13T15:00:13Z",
+                "webTitle": "Cocktail of the week: Pali Hill’s champagne lassi – recipe | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2021/aug/13/cocktail-of-the-week-pali-hill-champagne-lassi-recipe-mango-sorbet-indian-independence-day",
+                "apiUrl": "https://content.guardianapis.com/food/2021/aug/13/cocktail-of-the-week-pali-hill-champagne-lassi-recipe-mango-sorbet-indian-independence-day",
+                "fields": {
+                    "headline": "Cocktail of the week: Pali Hill’s champagne lassi – recipe",
+                    "trailText": "Mango sorbet, apricot liqueur and a suggestion of single malt topped with champagne: raise a stylish glass to India’s Independence Day",
+                    "byline": "Avinash Shashidhara",
+                    "body": "<p>No celebration is complete without a glass of something fizzy, and this fruit-lassi-meets-champagne-cocktail number ticks all the boxes to get Indian Independence Day this weekend off on the right foot. (At the restaurant, we dissolve a little <a href=\"https://www.google.com/search?q=yoghurt+powder+uk&amp;oq=yoghurt+powder+uk&amp;aqs=chrome.0.0l8.4081j0j9&amp;sourceid=chrome&amp;ie=UTF-8\">yoghurt powder</a> into the apricot liqueur – 3½g per 700ml bottle, if you fancy giving it a go yourself – but that’s probably a step too far for at home.)</p> <h2>Champagne lassi</h2> <p>Serves <strong>1</strong></p> <p><strong>½ scoop mango sorbet</strong> – shop-bought or homemade (see our simple recipe below)<br><strong>2½ml (ie, just under ½ tsp) good single malt whisky</strong> – we use <a href=\"https://www.glenfiddich.com/uk/shop/grand-cru/\">Glenfiddich Grand Cru</a><strong><br>5ml </strong><strong>apricot liqueur </strong>– we use <a href=\"https://briottet.fr/en/produit/apricot-liqueur/\">Briottet</a><br><strong>75ml champagne</strong>, to top</p> <p>For the sorbet (optional)<br><strong>3 ripe mangoes</strong>, peeled and stoned (or tinned mango pulp when not in season)<br><strong>200g caster sugar<br>The juice of 1 lime</strong></p> <p>To make the sorbet at home, put the mango flesh in a blender, add the sugar, lime juice and 200ml water, then blend smooth, making sure the sugar dissolves. Churn in an ice-cream machine, or pour into container and freeze, stirring every 30 minutes or so, until set. Store for up to three months.</p> <p>Put the sorbet in the base of a coupe, then pour over the whisky and apricot liqueur. Top with champagne and serve immediately.</p> <p>• Avinash Shashidhara, head chef, <a href=\"https://palihill.co.uk/\">Pali Hill</a>, London W1</p> <ul> <li><p>UK readers: <a href=\"https://www.ocado.com/search?entry=10000091392&amp;utm_source=guardian-feast&amp;utm_medium=referral&amp;utm_campaign=guardian-feast-recipe\">click to buy these ingredients</a> from Ocado</p></li> </ul>",
+                    "firstPublicationDate": "2021-08-13T15:00:13Z",
+                    "thumbnail": "https://media.guim.co.uk/04359a6bc8bdc2ca017a39be497a253cb4af4b38/0_955_3275_1965/500.jpg"
+                },
+                "tags": [],
+                "references": [],
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            },
+            {
+                "id": "food/2021/aug/06/cocktail-of-the-week-wilding-bar-reimagined-sherry-cobbler-recipe",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-08-06T15:00:26Z",
+                "webTitle": "Cocktail of the week: Wilding’s reimagined sherry cobbler – recipe | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2021/aug/06/cocktail-of-the-week-wilding-bar-reimagined-sherry-cobbler-recipe",
+                "apiUrl": "https://content.guardianapis.com/food/2021/aug/06/cocktail-of-the-week-wilding-bar-reimagined-sherry-cobbler-recipe",
+                "fields": {
+                    "headline": "Cocktail of the week: Wilding’s reimagined sherry cobbler – recipe",
+                    "trailText": "A familiar sherry cobbler, but with vermouth and a lower ABV to make for a martini-style refresher",
+                    "byline": "Dave Tregenza",
+                    "body": "<p>This is our take on the sherry cobbler: it’s a nod to our wine-focused ethos, but we’ve kept the ABV quite low to make a light, seasonal, martini-style drink.</p> <h2>Reimagined sherry cobbler</h2> <p>Serves <strong>1</strong></p> <p><strong>30ml </strong><strong>amontillado sherry</strong> – we use <a href=\"https://www.sherrynotes.com/2020/reviews/amontillado/amontillado-8-mar7/\">Mar 7</a><br><strong>10ml </strong><strong>dry white vermouth</strong> – we use <a href=\"https://londinio-liqueurs.com/store/ols/products/londinio-dry-vermouth\">Londinio</a><br><strong>15ml triple sec</strong> – we use <a href=\"http://maisonferrand.com/en/content/pf-dry-curacao-1/\">Pierre Ferrand dry curaçao</a><br><strong>10ml fresh lemon or lime juice<br>1 twist orange zest</strong>, to finish</p> <p>Fill a jug or boston glass with ice, add all the liquids, stir to combine, then strain into a chilled nick &amp; nora or martini glass. Squeeze over the orange twist, to express the oils, then drop into the drink or perch on the edge of the glass, and serve.</p> <p>• Dave Tregenza, bar manager, <a href=\"https://www.wilding.wine/\">Wilding, Oxford</a>.</p> <ul> <li><p>UK readers: <a href=\"https://www.ocado.com/search?entry=10000091358&amp;utm_source=guardian-feast&amp;utm_medium=referral&amp;utm_campaign=guardian-feast-recipe\">click to buy these ingredients</a> from Ocado</p></li> </ul>",
+                    "firstPublicationDate": "2021-08-06T15:00:26Z",
+                    "thumbnail": "https://media.guim.co.uk/b775c2da10069193e0e3d310c8adf7ecb8d702fc/381_2015_5444_3264/500.jpg"
+                },
+                "tags": [],
+                "references": [],
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            },
+            {
+                "id": "food/2021/jul/30/cocktail-of-the-week-burnt-oranges-majorelle-julep-gin-pomegranate-honey-mint",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-07-30T15:00:03Z",
+                "webTitle": "Cocktail of the week: Burnt Orange’s majorelle julep – recipe | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2021/jul/30/cocktail-of-the-week-burnt-oranges-majorelle-julep-gin-pomegranate-honey-mint",
+                "apiUrl": "https://content.guardianapis.com/food/2021/jul/30/cocktail-of-the-week-burnt-oranges-majorelle-julep-gin-pomegranate-honey-mint",
+                "fields": {
+                    "headline": "Cocktail of the week: Burnt Orange’s majorelle julep – recipe",
+                    "trailText": "A classic julep, but with gin as the active ingredient, and with pomegranate and honey to add to the summery feel",
+                    "byline": "George Rogulja-Greenwell",
+                    "body": "<p>This refreshing mix of gin, fresh pomegranate, lemon, honey and mint makes the perfect sundowner for a summer’s day.</p> <h2>Majorelle julep</h2> <p>Serves <strong>1</strong></p> <p><strong>5 mint leaves</strong>, plus 1 sprig to garnish<br><strong>50ml gin</strong> – we use <a href=\"https://www.tanqueray.com/en-gb/gins/n%C2%BA-ten/\">Tanqueray No. 10</a> <br><strong>35ml fresh pomegranate juice<br>10ml honey<br>15ml lemon juice</strong><br><strong>1 tsp pomegranate seeds</strong>, to garnish</p> <p>Muddle the mint leaves in the base of a shaker (ie, bash them about a bit with a wooden spoon), then add all the liquids and a handful of ice, and hard shake. Single strain into a highball glass filled with crushed ice, garnish with a mint sprig and the pomegranate seeds, and serve.</p> <p>• George Rogulja-Greenwell, bar manager, <a href=\"https://burnt-orange.co.uk/\">Burnt Orange, Brighton</a></p> <ul> <li><p>UK readers: <a href=\"https://www.ocado.com/search?entry=10000091160&amp;utm_source=guardian-feast&amp;utm_medium=referral&amp;utm_campaign=guardian-feast-recipe\">click to buy these ingredients</a> from Ocado</p></li> </ul> <p><br></p>",
+                    "firstPublicationDate": "2021-07-30T15:00:03Z",
+                    "thumbnail": "https://media.guim.co.uk/fd4ee42125a4ba0656b9137a70fddd234746d1c9/0_988_3373_2024/500.jpg"
+                },
+                "tags": [],
+                "references": [],
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            },
+            {
+                "id": "food/2021/jul/23/cocktail-of-the-week-hertford-house-cedar-bloom-recipe-gin-pisco-aperol-strawberry",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-07-23T15:00:57Z",
+                "webTitle": "Cocktail of the week: Hertford House’s cedar bloom – recipe | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2021/jul/23/cocktail-of-the-week-hertford-house-cedar-bloom-recipe-gin-pisco-aperol-strawberry",
+                "apiUrl": "https://content.guardianapis.com/food/2021/jul/23/cocktail-of-the-week-hertford-house-cedar-bloom-recipe-gin-pisco-aperol-strawberry",
+                "fields": {
+                    "headline": "Cocktail of the week: Hertford House’s cedar bloom – recipe",
+                    "trailText": "A pink, summery drink to match the blossom of a very special tree",
+                    "byline": "Angel de Sousa",
+                    "body": "<p>Taking inspiration from a cedar tree planted 20 years ago by our MD Daniel Shipton, this drink represents the spirit of Hertford House: fragrant strawberries and colourful Aperol come together to bring a hint of fun to your spirit of choice, be that an aromatic Chilean pisco or a refreshing, classic gin.</p> <h2>Cedar Bloom</h2> <p>Serves <strong>1</strong></p> <p><strong>2 </strong><strong>strawberries</strong>, plus ½ strawberry extra to garnish<br><strong>20ml gomme syrup<br>35ml gin or pisco<br>20ml Aperol <br>25ml lemon juice</strong></p> <p>Muddle (ie, crush) the strawberries in the base of a shaker, then pour in the syrup, followed by the gin or pisco, Aperol and lemon juice. Add a big handful of ice, shake vigorously, then strain into a rocks glass filled with more ice. Garnish with the strawberry half and enjoy.</p> <ul> <li><p>UK readers: <a href=\"https://www.ocado.com/search?entry=10000090003&amp;utm_source=guardian-feast&amp;utm_medium=referral&amp;utm_campaign=guardian-feast-recipe\">click to buy</a> these ingredients from Ocado</p></li> </ul> <p>• Angel de Sousa, head of beverages, <a href=\"https://hertfordhouse.co.uk/\">Hertford House</a>, Hertford</p>",
+                    "firstPublicationDate": "2021-07-23T15:00:57Z",
+                    "thumbnail": "https://media.guim.co.uk/d458ecae11ddafbcfe31a40c7583345617ae3ffd/0_676_3169_1901/500.jpg"
+                },
+                "tags": [],
+                "references": [],
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            },
+            {
+                "id": "food/2021/jul/16/cocktail-of-the-week-bombay-bustles-mint-chaas-recipe",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-07-16T15:00:13Z",
+                "webTitle": "Cocktail of the week: Bombay Bustle’s mint chaas | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2021/jul/16/cocktail-of-the-week-bombay-bustles-mint-chaas-recipe",
+                "apiUrl": "https://content.guardianapis.com/food/2021/jul/16/cocktail-of-the-week-bombay-bustles-mint-chaas-recipe",
+                "fields": {
+                    "headline": "Cocktail of the week: Bombay Bustle’s mint chaas – recipe",
+                    "trailText": "A cooling, alcohol-free refresher with a kick of fresh green chilli",
+                    "byline": "Samyukta Nair",
+                    "body": "<p>An easy, refreshing, non-alcoholic Indian cooler to be relished on its own, with a snack or alongside a meal. Make sure the mint and coriander leaves are cold, or straight from the fridge, because otherwise they might turn black due to the heat of the blender blade.</p> <h2>Mint chaas</h2> <p>Serves <strong>1</strong></p> <p><strong>100g Greek-style yoghurt<br>100ml water<br>½ tsp cumin seeds</strong>, lightly toasted<br><strong>6-8 mint leaves</strong>, plus 1 sprig to garnish<strong><br>6-8 coriander leaves<br>½ tsp table salt<br>½ green chilli</strong>, roughly chopped<br><strong>1 thin slice peeled fresh ginger </strong><br><strong>½ tsp chat masala</strong> – we use <a href=\"https://mdhspices.com/\">MDH</a><br><br></p> <p>Put everything in a blender and blitz for a minute, until smooth. Pour into a highball glass and garnish with a sprig of mint.<br><br>• Samyukta Nair, founder, <a href=\"https://bombaybustle.com/\">Bombay Bustle</a>, London W1</p> <ul> <li><p>UK readers: <a href=\"https://www.ocado.com/browse/summer-just-for-you-310305/refreshing-drinks-310286?utm_source=guardian-feast&amp;utm_medium=referral&amp;utm_campaign=guardian-feast-recipe\">click to buy</a> summer drinks at Ocado</p></li> </ul>",
+                    "firstPublicationDate": "2021-07-16T15:00:13Z",
+                    "thumbnail": "https://media.guim.co.uk/061dd95b95aff027cc49978249ff7b435310962e/224_171_3296_1977/500.jpg"
+                },
+                "tags": [],
+                "references": [],
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            },
+            {
+                "id": "food/2021/jul/09/cocktail-of-the-week-paul-ainsworths-cornish-margarita-recipe",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-07-09T15:00:50Z",
+                "webTitle": "Cocktail of the week: Paul Ainsworth's Cornish margarita | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2021/jul/09/cocktail-of-the-week-paul-ainsworths-cornish-margarita-recipe",
+                "apiUrl": "https://content.guardianapis.com/food/2021/jul/09/cocktail-of-the-week-paul-ainsworths-cornish-margarita-recipe",
+                "fields": {
+                    "headline": "Cocktail of the week: Paul Ainsworth's Cornish margarita – recipe",
+                    "trailText": "All the charm of a margarita, but with a distinctly Cornish accent from the judicious use of fine local cider",
+                    "byline": "Liam Evans",
+                    "body": "<p>This is based on the classic margarita, but we use Cornish cider instead of tequila. It’s less alcoholic than a regular margarita, and very easy to make, using regular supermarket ingredients.</p> <h2>Cornish margarita</h2> <p>Serves<strong> 1</strong></p> <p><strong>30ml fresh lime juice<br>25ml <a href=\"https://www.cointreau.com/uk/en\">Cointreau</a> or triple sec<br>10ml agave syrup<br>Salt</strong>, to rim the glass (optional)<br><strong>50ml dry to medium-dry sparkling cider</strong> – Cornish, for preference (we use <a href=\"https://www.cornishorchards.co.uk/heritage-cider-500ml/p9\">Cornish Orchards’ Heritage</a>)</p> <p>Put the lime juice, Cointreau and agave syrup in a cocktail shaker, add plenty of ice and shake. Strain into a martini glass, with or without a salt rim (we salt only half the rim, so guests can drink from the side they prefer), top up with cider and serve immediately.</p> <p>• Liam Evans, bar manager, CiCi’s Bar, <a href=\"https://www.paul-ainsworth.co.uk/number6/\">Paul Ainsworth at No 6</a>, Padstow, Cornwall</p> <ul> <li><p>UK readers: <a href=\"https://www.ocado.com/search?entry=10000089874&amp;utm_source=guardian-feast&amp;utm_medium=referral&amp;utm_campaign=guardian-feast-recipe\">click to buy</a> these ingredients at Ocado</p></li> </ul>",
+                    "firstPublicationDate": "2021-07-09T15:00:50Z",
+                    "thumbnail": "https://media.guim.co.uk/a05e821c119a0a13740edfd09356ca7806cf931f/1075_1507_4825_2893/500.jpg"
+                },
+                "tags": [],
+                "references": [],
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            },
+            {
+                "id": "food/2021/jul/02/cocktail-of-the-week-pied-a-terre-lemon-pie-vanilla-vodka-lemon-curd-recipe",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-07-02T15:00:40Z",
+                "webTitle": "Cocktail of the week: Pied à Terre’s lemon pie - recipe | The good mixer",
+                "webUrl": "https://www.theguardian.com/food/2021/jul/02/cocktail-of-the-week-pied-a-terre-lemon-pie-vanilla-vodka-lemon-curd-recipe",
+                "apiUrl": "https://content.guardianapis.com/food/2021/jul/02/cocktail-of-the-week-pied-a-terre-lemon-pie-vanilla-vodka-lemon-curd-recipe",
+                "fields": {
+                    "headline": "Cocktail of the week: Pied à Terre’s lemon pie – recipe",
+                    "trailText": "A lemon curd vodka cocktail to mark 30 years of swish London restaurant Pied à Terre",
+                    "byline": "David Moore",
+                    "body": "<p>After the year that we’ve all endured, it’s hard to believe that 2021 marks the 30th anniversary of when we first opened the doors of Pied à Terre in Fitzrovia, central London. To mark the occasion, we’ve come up with this new cocktail to add to our list.</p> <h2>Lemon pie</h2> <p>Serves<strong> 1</strong></p> <p><strong>50ml vanilla vodka </strong>– we use <a href=\"https://www.wine-searcher.com/find/cairel+vanila+vodka+sweden\">Cariel</a><strong><br>20ml lemon juice<br>10ml sugar syrup<br>2 tsp lemon curd</strong> (we make our own, which just happens to be vegan, but shop-bought will work fine)<br><strong>1 lemon slice and 1 strip lemon or lime zest</strong>, to garnish<br><strong>1 basil leaf</strong>, to garnish (optional)</p> <p>Put all the liquids and the curd in a shaker, add two ice cubes and shake well. Fine strain into a chilled martini glass or coupette, garnish and serve.</p> <p>• David Moore, owner, <a href=\"https://www.pied-a-terre.co.uk/\">Pied à Terre, London W1</a></p> <ul> <li><p>UK readers: click <a href=\"https://www.ocado.com/search?entry=10000088895&amp;utm_source=guardian-feast&amp;utm_medium=referral&amp;utm_campaign=guardian-feast-recipe\">here </a>to buy these ingredients from Ocado</p></li> </ul>",
+                    "firstPublicationDate": "2021-07-02T15:00:40Z",
+                    "thumbnail": "https://media.guim.co.uk/89309ea978ee0ef83af9c4679ca8f372e040a46a/0_993_4010_2405/500.jpg"
+                },
+                "tags": [],
+                "references": [],
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            },
+            {
+                "id": "food/2021/jun/25/cocktail-of-the-week-sussex-pass-summer-fizz-recipe-vodka-sparkling-wine",
+                "type": "article",
+                "sectionId": "food",
+                "sectionName": "Food",
+                "webPublicationDate": "2021-06-25T15:00:29Z",
+                "webTitle": "Cocktail of the week: Sussex Pass’ summer fizz – recipe",
+                "webUrl": "https://www.theguardian.com/food/2021/jun/25/cocktail-of-the-week-sussex-pass-summer-fizz-recipe-vodka-sparkling-wine",
+                "apiUrl": "https://content.guardianapis.com/food/2021/jun/25/cocktail-of-the-week-sussex-pass-summer-fizz-recipe-vodka-sparkling-wine",
+                "fields": {
+                    "headline": "Cocktail of the week: Sussex Pass’ summer fizz – recipe",
+                    "trailText": "A perfect summer aperitif for the garden – a Cosmopolitan with mint and English sparkling wine",
+                    "byline": "Sam Maynard",
+                    "body": "<p>Our restaurant aims to showcase the finest produce in Sussex and Kent, and support local producers and growers. This sparkling wine cocktail is a case in point: it’s ridiculously easy to make, and the perfect refreshing drink for sitting outdoors in summer.</p> <h2>Sussex Pass summer fizz</h2> <p>Serves <strong>1</strong></p> <p><strong>25ml English vodka </strong>– we use <a href=\"http://blackdowncellar.co.uk/\">Blackdown</a> because it’s local to us<br><strong>10ml triple sec</strong>, or Cointreau<br><strong>Juice from ¼ lemon<br>2 sprigs fresh mint<br>English sparkling wine</strong>, well chilled, to top – again, we use a local one, <a href=\"https://www.roebuckestates.co.uk/#agedModal\">Roebuck Sussex Classic Cuvée</a></p> <p>In a boston glass or jug, muddle the vodka, triple sec, lemon juice and mint. Fine strain into a champagne flute, top up with chilled sparkling wine and serve.</p> <p>• Sam Maynard, <a href=\"https://sussexpass.restaurant/\">Sussex Pass</a>, Wadhurst, East Sussex</p>",
+                    "firstPublicationDate": "2021-06-25T15:00:29Z",
+                    "thumbnail": "https://media.guim.co.uk/6d469c4b71241a6aa98cea8ef108ae697ba6cf58/72_753_3527_2115/500.jpg"
+                },
+                "tags": [],
+                "references": [],
+                "isHosted": false,
+                "pillarId": "pillar/lifestyle",
+                "pillarName": "Lifestyle"
+            }
+        ]
+    }
+}
