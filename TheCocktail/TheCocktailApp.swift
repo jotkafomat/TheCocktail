@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct TheCocktailApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CocktailsListView(viewModel: CocktailsListView.ViewModel(recipesFetching: RecipesFetchingPlaceholder()))
         }
     }
 }
