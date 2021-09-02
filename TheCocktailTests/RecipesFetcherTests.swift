@@ -12,8 +12,12 @@ class RecipesFetcherTests: XCTestCase {
     
     var cancellables = Set<AnyCancellable>()
 
-    func testWhenRequestSucceedsPublishesDecodedItems() {
-        let recipesFetcher = RecipesFetcher()
+    func testWhenRequestSucceedsPublishesDecodedItems() throws {
+        
+        let url = try XCTUnwrap(Bundle(for: type(of: self)).url(forResource:"fullResponse",withExtension:"json"))
+        let data = try Data(contentsOf: url)
+        
+        let recipesFetcher = RecipesFetcher(networkFetching: NetworkFetchingStub(returning: .success(data)))
         
         let expectation = XCTestExpectation(description: "Publishes decoded [Recipes]")
         

@@ -35,6 +35,7 @@
 		E1BF90D026E0DED400F52F41 /* RecipesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF90CF26E0DED400F52F41 /* RecipesFetcher.swift */; };
 		E1BF90D226E0E4DB00F52F41 /* NetworkFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF90D126E0E4DB00F52F41 /* NetworkFetching.swift */; };
 		E1BF90D426E0E54C00F52F41 /* URLSessios+NetworkFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF90D326E0E54C00F52F41 /* URLSessios+NetworkFetching.swift */; };
+		E1BF90D826E0E9AF00F52F41 /* NetworkFetchingStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF90D726E0E9AF00F52F41 /* NetworkFetchingStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		E1BF90CF26E0DED400F52F41 /* RecipesFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesFetcher.swift; sourceTree = "<group>"; };
 		E1BF90D126E0E4DB00F52F41 /* NetworkFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetching.swift; sourceTree = "<group>"; };
 		E1BF90D326E0E54C00F52F41 /* URLSessios+NetworkFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSessios+NetworkFetching.swift"; sourceTree = "<group>"; };
+		E1BF90D726E0E9AF00F52F41 /* NetworkFetchingStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetchingStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				E1BF90C926E0D22400F52F41 /* fullResponse.json */,
 				E1BF90CB26E0D75200F52F41 /* recipeItem.json */,
 				E1BF90CD26E0DCF500F52F41 /* RecipesFetcherTests.swift */,
+				E1BF90D726E0E9AF00F52F41 /* NetworkFetchingStub.swift */,
 			);
 			path = TheCocktailTests;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				E1BF909026DE7A0C00F52F41 /* RecipeResponseTests.swift in Sources */,
 				E1BF8FAF26D92BB900F52F41 /* TestError.swift in Sources */,
 				E1BF90CE26E0DCF500F52F41 /* RecipesFetcherTests.swift in Sources */,
+				E1BF90D826E0E9AF00F52F41 /* NetworkFetchingStub.swift in Sources */,
 				E1BF8FAD26D9200200F52F41 /* RecipeFetchingStub.swift in Sources */,
 				E1BF8F3926D7BE8800F52F41 /* CocktailsListViewModelTests.swift in Sources */,
 				E1BF908426DE69EE00F52F41 /* RecipeItemTests.swift in Sources */,
