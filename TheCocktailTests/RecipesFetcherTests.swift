@@ -31,7 +31,24 @@ class RecipesFetcherTests: XCTestCase {
             )
             .store(in: &cancellables)
     }
-    func testWhenRequestFailsPublishesError() {}
+    func testWhenRequestFailsPublishesError() {
+        let expectedError = URLError(.badServerResponse)
+        let recipesFetcher = RecipesFetcher(networkFetching: NetworkFetchingStub(returning: .failure(expectedError)))
+        let expectation = XCTestExpectation(description: "Publishes received URLError")
+        
+        recipesFetcher.fetchRecipes()
+            .sink(
+                receiveCompletion: { completion in
+                    guard case .failure(let error) = completion else { return }
+                    XCTAssertEqual(error as? URLError, expectedError)
+                    expectation.fulfill()
+                }, receiveValue: { items in
+                    XCTFail("expected to fail, succeeded with \(items)")
+                }
+            )
+            .store(in: &cancellables)
+        wait(for: [expectation], timeout: 1)
+    }
 
     
 }
