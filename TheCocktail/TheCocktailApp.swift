@@ -12,7 +12,7 @@ struct TheCocktailApp: App {
     
     var body: some Scene {
         WindowGroup {
-            CocktailsListView(viewModel: CocktailsListView.ViewModel(recipesFetching: RecipesFetchingPlaceholder()))
+            CocktailsListView(viewModel: CocktailsListView.ViewModel(recipesFetching: RecipesFetcher()))
         }
     }
 }

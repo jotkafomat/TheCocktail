@@ -18,6 +18,7 @@ extension CocktailsListView {
         init(recipesFetching: RecipesFetching) {
             recipesFetching
                 .fetchRecipes()
+                .receive(on: RunLoop.main)
                 .sink(
                     receiveCompletion: { [weak self] completion in
                         guard case .failure(let error) = completion else { return }
